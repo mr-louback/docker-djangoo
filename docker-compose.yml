@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   djangoapp:
-    container_name: djangoapp
+    # user: duser
     build:
       context: .
       dockerfile: ./Dockerfile
@@ -17,9 +17,8 @@ services:
     depends_on:
       - psql
   psql:
-    container_name: psql
     image: postgres:13-alpine3.18
     volumes:
-      - ./data/postgresql/data:/var/lib/postgresql/data/
+      - ./data/postgres/data:/var/lib/postgres/data/
     env_file:
       - ./dotenv_files/.env
