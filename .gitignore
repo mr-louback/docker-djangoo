@@ -1,0 +1,71 @@
+/djangoapp/static/
+/djangoapp/media/
+/djangoapp/project/local_settings.py
+/gunicorn-error-log
+__localcode
+/data/
+/venv
+# Docker - 
+################################
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+/.docker
+################################################################
+
+# Ambientes virtuais (por exemplo, criados com virtualenv ou venv)
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Arquivos de configuração
+*.pyo
+*.pyc
+*.pyd
+*.db
+
+# Arquivos de log e saída de build
+*.log
+*.pot
+*.pyc
+__pycache__/
+build/
+dist/
+
+# Arquivos de usuário
+*.orig
+*.rej
+*~
+
+# IDE/Editor específico
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Dependências geradas
+node_modules/
+__pycache__/
+*.pyc
+
+# Ambientes específicos
+.env
+.env.*
